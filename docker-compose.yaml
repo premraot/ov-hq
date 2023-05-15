@@ -1,0 +1,8 @@
+version: '3'
+services:
+  bench-igpu-new:
+    image: premraotd/ov-helloquery2
+    devices:
+      - /dev/dri:/dev/dri
+    stdin_open: true
+    tty: true
